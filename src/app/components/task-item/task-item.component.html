@@ -1,0 +1,32 @@
+<div 
+    [ngClass]="{reminder: task.reminder}" 
+    class="task"
+    (dblclick)="onToggle(task)"
+    >
+    <h3>
+        {{task.text}}
+        <fa-icon 
+            [icon]="faTimes"
+            [ngStyle]="{'color': 'red'}"
+            (click)="(onDelete(task))"
+            >
+        </fa-icon>    
+    </h3>
+    <p>
+        {{ task.day }}
+    </p>
+    <form class="add-form" *ngIf="task.reminder">
+        <div class="form-control">
+            <label for="text">Task</label>
+            <input type="text" name="text" id="text" placeholder={{task.text}} />
+        </div>
+        <div class="form-control">
+            <label for="day">Day & Time</label>
+            <input type="text" name="day" id="day" placeholder={{task.day}} />
+        </div>
+        <input type="submit" value="Save Task" class="btn btn-block"/>
+    </form>
+
+
+
+</div>

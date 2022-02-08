@@ -1,0 +1,54 @@
+{
+  "tasks": [
+    {
+      "text": "Pooping",
+      "day": "Now",
+      "reminder": false,
+      "showEditTask": false,
+      "id": 1
+    },
+    {
+      "text": "fart",
+      "day": "all day everyday grinddontstop",
+      "reminder": false,
+      "showEditTask": false,
+      "id": 2
+    },
+    {
+      "text": "telly",
+      "day": "sup dawg",
+      "reminder": false,
+      "id": 3
+    },
+    {
+      "text": "hanging w the broskis",
+      "day": "friday",
+      "reminder": false,
+      "id": 4
+    },
+    {
+      "text": "passing gas",
+      "day": "daily",
+      "reminder": false,
+      "id": 5
+    },
+    {
+      "text": "eating",
+      "day": "when",
+      "reminder": false,
+      "id": 6
+    },
+    {
+      "text": "aiii papai",
+      "day": "whut",
+      "reminder": false,
+      "id": 7
+    },
+    {
+      "text": "yup",
+      "day": "sdf",
+      "reminder": false,
+      "id": 8
+    }
+  ]
+}
